@@ -1,0 +1,167 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/client",
+					"jsonFile" : "directory-src.client-Debug-1c4a3b19c39f3daa3331.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/client",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/config",
+					"jsonFile" : "directory-src.config-Debug-eb0c43d13011ce5cd845.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/config"
+				},
+				{
+					"build" : "src/interpreter",
+					"jsonFile" : "directory-src.interpreter-Debug-1239629a21d9a895b889.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/interpreter"
+				},
+				{
+					"build" : "src/json",
+					"jsonFile" : "directory-src.json-Debug-012bd10c962872460eba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/json"
+				},
+				{
+					"build" : "src/subprocess",
+					"jsonFile" : "directory-src.subprocess-Debug-a961738e01704df65c9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/subprocess"
+				},
+				{
+					"build" : "src/UI",
+					"jsonFile" : "directory-src.UI-Debug-1086fd47cd6af5181f43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/UI"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "TeleCode",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "client",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "client::@8ca63c80a879d0067daa",
+					"jsonFile" : "target-client-Debug-bd4a0949e8f4e50dbddb.json",
+					"name" : "client",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "telecode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-telecode-Debug-dc4d7da637b65f7fb7ed.json",
+					"name" : "telecode",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vsevolod/CppProjects/TeleCode/build",
+		"source" : "/home/vsevolod/CppProjects/TeleCode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
